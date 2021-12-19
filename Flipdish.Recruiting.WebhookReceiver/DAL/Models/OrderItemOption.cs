@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
-namespace Flipdish.Recruiting.WebhookReceiver.Models
+namespace Flipdish.Recruiting.WebhookReceiver.DAL.Models
 {
     /// <summary>
     /// Order item option
