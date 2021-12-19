@@ -1,4 +1,4 @@
-namespace Flipdish.Recruiting.WebhookReceiver.Helpers
+namespace Flipdish.Recruiting.WebhookReceiver.BLL.Helpers
 {
     public class SettingsService
     {

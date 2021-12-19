@@ -1,9 +1,9 @@
 ﻿
-using Flipdish.Recruiting.WebhookReceiver.Models;
+using Flipdish.Recruiting.WebhookReceiver.DAL.Models;
 using System;
 using System.Globalization;
 
-namespace Flipdish.Recruiting.WebhookReceiver.Helpers
+namespace Flipdish.Recruiting.WebhookReceiver.BLL.Helpers
 {
     public static class GeoUtils
     {

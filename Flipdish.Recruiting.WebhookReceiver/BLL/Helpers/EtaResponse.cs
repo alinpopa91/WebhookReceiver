@@ -1,6 +1,6 @@
 using System;
 
-namespace Flipdish.Recruiting.WebhookReceiver.Helpers
+namespace Flipdish.Recruiting.WebhookReceiver.BLL.Helpers
 {
     public enum EtaResponse
     {
