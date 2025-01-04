@@ -1,7 +1,7 @@
 ﻿
-namespace Flipdish.Recruiting.WebhookReceiver.Helpers
+namespace Flipdish.Recruiting.WebhookReceiver.BLL.Helpers
 {
-    static class CurrencyFilter
+    public static class CurrencyFilter
     {
         public static string currency(decimal input)
         {

@@ -7,13 +7,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Globalization;
 using System.Text.RegularExpressions;
-using Flipdish.Recruiting.WebhookReceiver.Models;
-using Flipdish.Recruiting.WebhookReceiver.Helpers;
+using Flipdish.Recruiting.WebhookReceiver.DAL.Models;
+using Flipdish.Recruiting.WebhookReceiver.BLL.Helpers;
 using NetBarcode;
 
-namespace Flipdish.Recruiting.WebhookReceiver
+namespace Flipdish.Recruiting.WebhookReceiver.BLL.Services.Email
 {
-    internal class EmailRenderer : IDisposable
+    public class EmailRenderer : IDisposable
     {
         private readonly Order _order;
         private readonly string _appNameId;
